@@ -13,9 +13,8 @@ const Navbar = ({ isChatOpen, setIsChatOpen }) => {
 
   const navItems = [
     { to: "/", label: "ABOUT US" },
-    { to: "gallery", label: "GALLERY" },
-    { to: "events", label: "EVENTS" },
     { to: "blogs", label: "BLOGS" },
+    {to: "events", label: "EVENTS"},
     { to: "/contact-us", label: "CONTACT US" },
   ];
 
